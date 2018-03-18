@@ -1,0 +1,13 @@
+<link rel="stylesheet" type="text/css" href="/app.component.css">
+<div>
+  <img  id="gate" src="http://icons.iconarchive.com/icons/icons8/windows-8/512/Cultures-Torii-icon.png">
+  <button class="button" [routerLink]="['home']">Home</button>
+  <button class="button" [routerLink]="['mine']" >Mine Coins</button>
+  <button class="button" [routerLink]="['buy']" >Buy Coins</button>
+  <button class="button" [routerLink]="['sell']" >Sell Coins</button>
+  <button class="button" [routerLink]="['browse']" >Browse Ledger</button>
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>
+
